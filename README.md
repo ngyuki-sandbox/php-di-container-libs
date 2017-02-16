@@ -3,18 +3,24 @@
 - Pimple
     - http://pimple.sensiolabs.org/
     - https://github.com/silexphp/Pimple
+    - https://packagist.org/packages/pimple/pimple
 - Symfony/DependencyInjection
     - https://symfony.com/doc/current/components/dependency_injection.html
     - https://github.com/symfony/dependency-injection
+    - https://packagist.org/packages/symfony/dependency-injection
 - Aura.Di
     - https://github.com/auraphp/Aura.Di
+    - https://packagist.org/packages/aura/di
 - PHP-DI
     - http://php-di.org/
     - https://github.com/PHP-DI/PHP-DI
+    - https://packagist.org/packages/php-di/php-di
 - Zend\Di
     - https://github.com/zendframework/zend-di
+    - https://packagist.org/packages/zendframework/zend-di
 - Zend\ServiceManager
     - https://github.com/zendframework/zend-servicemanager
+    - https://packagist.org/packages/zendframework/zend-servicemanager
 
 ## Pimple
 
