@@ -1,0 +1,5 @@
+<phpunit
+  bootstrap="bootstrap.php"
+  beStrictAboutTestsThatDoNotTestAnything="false"
+>
+</phpunit>
