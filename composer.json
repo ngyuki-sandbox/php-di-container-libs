@@ -4,7 +4,8 @@
         "symfony/dependency-injection": "^3.2",
         "symfony/config": "^3.2",
         "aura/di": "^3.2",
-        "php-di/php-di": "^5.4"
+        "php-di/php-di": "^5.4",
+        "zendframework/zend-servicemanager": "^3.2"
     },
     "autoload": {
         "psr-4": {

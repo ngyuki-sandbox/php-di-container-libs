@@ -74,8 +74,7 @@
     - AbstractFactory
         - サービス名のパターンを元に動的にインスタンス作成
         - コントローラーのインスタンス化で活躍
-        - Aura.Di の newInstance みたいなのでも十分な気がするけど
     - Initializer
         - マーカーインタフェースを元にセッターインジェクションしたり
         - いわゆる AwareInterface と AwareTrait で実現
-        - Symfony にも ContainerAwareInterface とかあるけどどう使うのか？
+- オートワイヤリングはできない
