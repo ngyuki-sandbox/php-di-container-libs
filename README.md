@@ -18,6 +18,7 @@
 - Zend\Di
     - https://github.com/zendframework/zend-di
     - https://packagist.org/packages/zendframework/zend-di
+    - https://zendframework.github.io/zend-di/
 - Zend\ServiceManager
     - https://github.com/zendframework/zend-servicemanager
     - https://packagist.org/packages/zendframework/zend-servicemanager
@@ -67,6 +68,18 @@
         - `Blog\Domain\*RepositoryInterface` => `Blog\Architecture\*DoctrineRepository`
 - アノテーションでインジェクションするサービスを指定できる
     - あまり好きではないけど・・
+
+## Zend\Di
+
+- ひと通りのことはできそう
+- オートワイヤリングもできる
+- ディレクトリを走査して事前コンパイルとか可能
+- `get` でパラメータ指定したりできるけど・・・
+    - 依存するサービスにまでパラメータが伝播する
+    - なんだか直感に反する
+- インタフェースインジェクション
+    - XXXAwareInterface と setXXX のセットでインジェクション
+- イニシャライザとかデコレータとかはできない？
 
 ## Zend\ServiceManager
 
